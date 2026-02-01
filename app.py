@@ -33,7 +33,7 @@ else:
         
         # Inisialisasi Model dengan path lengkap 'models/' untuk menghindari error 404
         model = genai.GenerativeModel(
-            model_name="models/gemini-1.5-flash", 
+            model_name="models/gemini-1.5-flash-latest", 
             system_instruction=ZENITH_INSTRUCTION
         )
 
